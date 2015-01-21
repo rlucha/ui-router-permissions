@@ -62,10 +62,3 @@
 
     angular.module('ui.router.permissions', [])
           .factory('uiRouterPermissionsSrv', uiRouterPermissionsSrv);
-
-
-/*
-    uiRouterPermissionsSrv
-        .setRolesCollection(USER_ROLES)
-        .setRole('user');
-*/
